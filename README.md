@@ -66,7 +66,7 @@
 
 Agent Bits provides machine‑readable utilities and datasets for AI agents, offering a suite of tools such as Base64 encoding/decoding, country and currency lookups, ISBN validation, and more. All capabilities are accessible via simple HTTP MCP endpoints without requiring API keys, enabling agents to enrich data, transform content, and perform validation tasks programmatically. The service is openly documented and includes an OpenAPI spec, catalog, and developer guides.
 
-**Areas:** AI · Utilities · Data · Tools · Machine-Readable
+**Areas:** Artificial Intelligence · Utilities · Data · Tools · Machine-Readable
 
 ## Agent Bits on APIs.io
 
@@ -81,11 +81,23 @@ Everything profiled for Agent Bits is published on APIs.io rather than in this r
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentbits-dev-mcp.yml](https://apis.io/servers/agentbits-dev/agentbits-dev-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentbits Dev Agentic Access](https://apis.io/agentic-access/agentbits-dev/agentbits-dev-agentic-access/)
+- [Agent Bits Agentic Access](https://apis.io/agentic-access/agentbits-dev/agentbits-dev-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentbits Dev Context](https://apis.io/jsonld/agentbits-dev/agentbits-dev-context/)
 
 #### Governance rules (1)
 
@@ -93,11 +105,12 @@ Spectral rulesets for the provider's contracts.
 
 - [Agent Bits API Rules](https://apis.io/rules/agentbits-dev/agentbits-dev-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentbits Dev Domain Security](https://apis.io/security/agentbits-dev/agentbits-dev-domain-security/)
+- [Agent Bits Authentication](https://apis.io/security/agentbits-dev/agentbits-dev-authentication/)
+- [Agent Bits Domain Security](https://apis.io/security/agentbits-dev/agentbits-dev-domain-security/)
 
 ## Where to find this API
 
@@ -108,23 +121,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 27.5** — thin · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 20.9** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 61.7 |
-| Contract quality | 39.2 |
-| Contract governance | 79.1 |
+| Contract quality | 49.7 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 13.6 |
+| Developer ergonomics | 8.9 |
 | Access clarity | 0.0 |
 
-**Agent readiness 31.9** — agent-ready
+**Agent readiness 27.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -133,8 +146,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | verified |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
-| Well Known Catalog | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -144,8 +157,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 8.5** — Energy & Utilities
+**Regulatory alignment 3.8** — Energy & Utilities
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentbits-dev/](https://apis.io/providers/agentbits-dev/).
 
